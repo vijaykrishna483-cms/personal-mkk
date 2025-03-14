@@ -1,0 +1,27 @@
+/* Center everything */
+.App {
+  text-align: center;
+  font-family: "Arial", sans-serif;
+  margin-top: 50px;
+}
+
+/* Styling for the before and after response text */
+h1 {
+  font-size: 2.8rem;
+  color: #ff4d6d; /* Romantic pinkish-red */
+  transition: opacity 0.5s ease-in-out, transform 0.5s ease-in-out;
+  margin-bottom: 20px;
+}
+
+/* Text styling for "Nalla kutty 🥰" */
+h1:nth-of-type(2) {
+  color: #ff9900; /* Warm orange */
+  font-weight: bold;
+}
+
+/* Response text (e.g., "Hi kunja") */
+h2 {
+  font-size: 2rem;
+  color: #008000; /* Green for happy vibes */
+  margin-top: 20px;
+}
